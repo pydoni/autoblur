@@ -15,7 +15,7 @@ cd autoblur
 pip install -r requirements.txt  # install
 ```
 
-#### Api
+#### Package Install
 ```bash
 pip install autoblur  # install
 ```
@@ -25,7 +25,8 @@ pip install autoblur  # install
 #### Api
 ```bash
 import autoblur
-ab_core= autoblur.ab_core() #Load models
+ab_core= autoblur.ab_core() #Run once to create ab_core instance and load models to your hardware
+
 img = ab_core.apply_blur(img_to_blur) # Receives a np.ndarray() img and returns a image with license plates blurred
 ```
 
@@ -35,7 +36,7 @@ python3 blur.py --params
 ```
 ## <div align="center">Compatible models</div>
 If you want to blur objects that are not available in this tool, you can load your own weights and filter the classes following this tutorial in the docs.
-Currently the tool supports only yolov5 and yolov8 architecture.
+Currently the tool supports only yolov5 and yolov8 architecture and their following configurations, check the docs for configuration parameters.
 
 ## <div align="center">List of open-source weights</div>
 Through here you can find some weights for different objects and hardware, you can use these weights by defining their names and model on the api/blur.py params
