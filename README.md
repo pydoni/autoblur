@@ -2,7 +2,7 @@
 
 An open-source solution for blurring sensible objects in a image
 
-UNDER CONSTRUCTION
+README UNDER CONSTRUCTION
 ## <div align="center">Documentation</div>
 
 See the [docs](URL) for full documentation.
