@@ -2,6 +2,7 @@
 
 An open-source solution for blurring sensible objects in a image
 
+UNDER CONSTRUCTION
 ## <div align="center">Documentation</div>
 
 See the [docs](URL) for full documentation.
@@ -14,7 +15,7 @@ git clone https://github.com/pydoni/autoblur  # clone
 cd autoblur
 pip install -r requirements.txt  # install
 ```
-
+#TODO
 #### Package Install
 ```bash
 pip install autoblur  # install
